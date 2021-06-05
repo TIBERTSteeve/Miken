@@ -223,7 +223,8 @@ body{
     width: 400px;
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 1px 9px rgb(0,0,0,0.5);
+    box-shadow: .5px .5px 5px  rgb(0,0,0,.2);
+    /* box-shadow: 2px 2px  1px rgba(0, 0, 0, 0.2); */
     align-items: center;
     border-radius: 10px;
 }
@@ -680,8 +681,9 @@ background: #fff;
     justify-content: center;
 }
     .section1 .rigth img{
-    width: 300px;
-    height: 150px;
+    width: 95%;
+    height: auto;
+    margin: 0 10px;
 }
 
 .section1 {
@@ -689,17 +691,15 @@ background: #fff;
 }
 
 .left button{
-    margin: 0 25px 0 20px;
-    width: 30%;
-    padding:5px 10px;
-    
+    width: 95%; 
+    margin: 10px 0 10px 10px;
+    padding: 5px 0;
 }
 
 .left button a{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
 }
-
 
 .section2 .sec1 img{
     width: 95%;
@@ -707,7 +707,9 @@ background: #fff;
 }
 
 .direction span{
-    margin: 0 10px;
+    margin: 170px 10px 0 10px;
+    opacity: .7; 
+
 }
 
 }
